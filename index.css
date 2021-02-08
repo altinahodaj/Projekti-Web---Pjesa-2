@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(online4.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 55px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 3.5px solid black;
+    transition: 0.6 ease;
+    background-color: transparent;
+    display: block;
+    border-radius: 12px;
+    height: 25px;
+    width: 90px;
+    font-size: larger;
+}
+
+ul li a:hover{
+    background-color: #916c8f;
+    transition: 0.6s ease;
+}
+
+.main li:nth-child(1){
+    margin-left: 3%;
+}
+
+.main li:nth-child(2){
+    margin-left: 3%;
+}
+
+.main li:nth-child(3){
+    margin-left: 3%;
+}
+
+.main li:nth-child(4){
+    margin-left: 3%;
+}
+
+
+.logo img{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-top: 5%;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.title{
+    position: relative;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.5s;
+}
+
+.title h1{
+    color: plum;
+    font-size:60px;
+}
+
+.buttons{
+    position: absolute;
+    top:55%;
+    left:13%; 
+}
+
+.button{
+    border: 3.5px solid black;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    transition: all 0.5s;
+}
+
+.button:hover{
+    background-color: #916c8f;
+}
+
+h2{
+    border: 2px solid black;
+    position: absolute;
+    width: 215px;
+    top: 50%;
+    left: 13%;
+}
+
+.content{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    width: 300px;
+    padding: 25px;
+    border: 8px solid black;
+}
+
+h1{
+    margin-bottom: 8%;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    margin-top: 250px;
+    color: black;
+    text-align: center;
+
+}
+  
+footer>h3 {
+    display: inline;
+}
+
+@media only screen and (max-width:400px){
+    .header{
+        align-items: center;
+        
+    }
+    .img{
+        width: 15px;
+        height: 15px;
+    }
+}

@@ -1,0 +1,134 @@
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: lightgreen;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 12px;
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 3.5px solid black;
+  transition: 0.6 ease;
+  background-color: transparent;
+  display: block;
+  border-radius: 12px;
+  height: 40px;
+  width: 110px;
+  font-size: larger;
+}
+
+ul li a:hover{
+  background-color: darkgreen;
+  transition: 0.6s ease;
+}
+
+.main li:nth-child(1){
+  margin-left: 3%;
+}
+
+.main li:nth-child(2){
+  margin-left: 3%;
+}
+
+.main li:nth-child(3){
+  margin-left: 3%;
+}
+
+.main li:nth-child(4){
+  margin-left: 3%;
+}
+
+h1{
+  text-align: center;
+  transition: all 0.5s;
+}
+
+h2{
+  text-align: center;
+}
+
+.contact{
+  position: absolute;
+  top:70%;
+  left: 2.5%;
+  width: 700px;
+  padding: 10px;
+  border: 10px solid black;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 3px solid #004103;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  transition: all 0.5s;
+}
+  
+input[type=sent] {
+  background-color: #004103;
+  color: black;
+  font-size: larger;
+  padding: 12px 20px;
+  border: none;
+  cursor:pointer;
+  transition: all 0.5s;
+}
+  
+input[type=sent]:hover {
+  background-color: #004103;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: lightgreen;
+  padding: 10px;
+  height: 5px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 3px;
+  padding: 20px;
+  height: 25%;
+}
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+/*@media screen and (max-width: 600px) {
+  .column, input[type=sent] {
+    width: 100%;
+    margin-top: 0;
+  }
+}*/
