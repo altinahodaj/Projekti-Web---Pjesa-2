@@ -30,7 +30,6 @@ ul{
 
 ul li{
   display: inline-block;
-
 }
 
 ul li a{
@@ -197,5 +196,16 @@ footer>h3 {
   display: inline;
 }
 
+@media screen and (max-width: 768px) {
+  .card{
+    font-size: larger;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .card{
+    font-size: larger;
+  }
+}
 
 

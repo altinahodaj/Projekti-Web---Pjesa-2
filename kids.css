@@ -195,3 +195,16 @@ footer {
 footer>h3 {
   display: inline;
 }
+
+
+@media screen and (max-width: 768px) {
+  .card{
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card{
+    font-size: smaller;
+  }
+}

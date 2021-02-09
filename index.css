@@ -150,7 +150,7 @@ footer>h3 {
     display: inline;
 }
 
-@media only screen and (max-width:400px){
+/*@media only screen and (max-width:400px){
     .header{
         align-items: center;
         
@@ -158,5 +158,30 @@ footer>h3 {
     .img{
         width: 15px;
         height: 15px;
+    }
+}*/
+
+@media screen and (max-width:768){
+    .content{
+        top: 55%;
+        left: 72%;
+    }
+    .title{
+        top: 30%;
+        left: 40%;
+    }
+    .title h1{
+        font-size: 50px;
+    }
+    h2{
+        top: 47%;
+        left: 3%;
+    }
+    .buttons{
+        top: 51%;
+        left: 3%;
+    }
+    .logo img{
+        margin-left: 5%;
     }
 }
